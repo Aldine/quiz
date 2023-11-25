@@ -79,7 +79,7 @@ const QuizList = () => {
     if (allAnswered) {
       updateScoreInStore();
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedAnswers, allAnswered]);
 
   return (
